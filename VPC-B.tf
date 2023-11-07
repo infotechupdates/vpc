@@ -3,7 +3,7 @@
 ################################################################################
 
 module "vpc_B" {
-  source               = "./modules/vpc/"
+  source               = "./modules/vpc-module/"
 
   providers = {
     aws = aws.us-east-1

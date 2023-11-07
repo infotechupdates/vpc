@@ -3,7 +3,7 @@
 ################################################################################
 
 module "vpc_A" {
-  source               = "./modules/vpc/"
+  source               = "./modules/vpc-module/"
   name                 = var.vpc_A
   cidr                 = var.vpc_cidr_A
   azs                  = var.azs_A
